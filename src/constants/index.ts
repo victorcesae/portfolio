@@ -14,7 +14,7 @@ import {
   git,
   amaranzero,
   carrent,
-  jobit,
+  selfdriving,
   tripguide,
   laravel,
   materialui,
@@ -25,33 +25,33 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "Sobre",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Projetos",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "Contato",
   },
 ];
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
+    title: "FullStack Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Laravel Developer",
+    icon: web,
+  },
+  {
+    title: "Nextjs Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Vtex Developer",
     icon: creator,
   },
 ];
@@ -117,7 +117,7 @@ const experiences = [
     company_name: "Amara NZero Brasil",
     icon: amaranzero,
     iconBg: "#fff",
-    date: "Março 2020 - Atual",
+    date: "Março 2021 - Atual",
     points: [
       "Desenvolvimento e manutenção de aplicações web utilizando React.js e outras tecnologias relacionadas.",
       "Desenvolvimento de API's para comunicação WMS - ERP.",
@@ -129,67 +129,67 @@ const experiences = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Template NextJs",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Template facilitador para iniciar projetos nextjs, typescript, next-auth, tailwindcss, react-query, react-toastify, nextjs-progressbar e etc.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "nextjs",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "typescript",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/victorcesae/template-nextjs",
   },
   {
-    name: "Job IT",
+    name: "Self Driving Car",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Estudo das redes neurais, criando um carro capaz de desviar dos obstáculos baseado no aprendizado.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "javacript",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: selfdriving,
+    source_code_link: "https://github.com/victorcesae/self-driving-car",
   },
   {
-    name: "Trip Guide",
+    name: "Projeto Final Hiring Coders",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Projeto desenvolvido para a última etapa do Hiring Coders com objetivo de criar uma loja VTEX com funcionalidades administrativas para facilitar na sugestões de itens combinados.",
     tags: [
       {
-        name: "nextjs",
+        name: "typescript",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "python",
         color: "green-text-gradient",
       },
       {
         name: "css",
         color: "pink-text-gradient",
       },
+      {
+        name: "awsservices",
+        color: "black-text-gradient",
+      },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/victorcesae/HCFinalProjectDreamscape",
   },
 ];
 

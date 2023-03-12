@@ -31,8 +31,8 @@ import tesla from "./company/tesla.png";
 import amaranzero from "./company/amaranzero.svg";
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import selfdriving from "./selfdriving.jpg";
+import tripguide from "./tripguide.jpg";
 
 export {
   logo,
@@ -61,7 +61,7 @@ export {
   starbucks,
   tesla,
   carrent,
-  jobit,
+  selfdriving,
   tripguide,
   laravel,
   php,

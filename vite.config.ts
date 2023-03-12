@@ -7,8 +7,5 @@ export default defineConfig({
   build: {
     chunkSizeWarningLimit: 4000,
   },
-  optimizeDeps: {
-    include: ["react", "react-dom"],
-  },
   base: "/portfolio/",
 });
